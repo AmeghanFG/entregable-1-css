@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+/* Estilos de header*/
+header {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2em;
+}
+
+header #inicio {
+    width: 100%;
+    height: fit-content;
+    background: #336b87;
+    padding: 1em;
+    font-weight: 900;
+}
+
+header nav {
+    width: 100%;
+    margin-top: 1em;
+}
+
+header a button {
+    text-decoration: none;
+    cursor: pointer;
+    border-color: #0C181E;
+    border-radius: 15px;
+    padding: 0.5em 1em 0.5em 1em;
+    background: #0C181E;
+    color: white;
+    box-shadow: 0 2px 5px 0 #2a3132; 
+    margin: 0 5px;
+}
+
+header a button:hover {
+    transform: translateY(2px);
+}
+
+header a button:active {
+    border-color: rgba(64, 28, 20, 1);
+    border:  rgba(64, 28, 20, 1);
+    background-color: #763626;
+    box-shadow: inset 4px 4px 10px rgba(64, 28, 20, 0.7);
+}
+
+/* Estilos de sections*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    margin-top: 1.5em;
+    width: 95%;
+}
+
+section .subtitulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+section .contenidoInformativo {
+    width: 70%;
+    height: fit-content;
+    padding: 1em;
+}
+
+section .contenidoInformativo p {
+    margin-bottom: 5px;
+}
+
+section .imagenes {
+    width: 28%;
+    height: auto;
+}
+
+section .imagenes img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px; 
+}
+
+section .imagenes img:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    transform: scale(1.1);
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #2a3132;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+footer a button {
+    text-decoration: none;
+    cursor: pointer;
+    border-color: white;
+    border-radius: 15px;
+    padding: 0.5em 1em 0.5em 1em;
+    background: white;
+    color: #0C181E;
+    box-shadow: 0 2px 5px 0 #2a3132; 
+    margin: 0 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+footer a button:hover {
+    transform: translateY(2px);
+}
+
+footer a button:active {
+    border-color: rgba(58, 89, 110, 1);
+    border:  rgba(58, 89, 110, 1);
+    background-color: #90afc5;
+    box-shadow: inset 4px 4px 10px rgba(58, 89, 110, 0.7);
+}
